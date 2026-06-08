@@ -19,6 +19,7 @@ fi
 # start the lab
 make start
 
+
 # on Codespaces this will not work correctly
 if ! ${CODESPACES:-false}; then
     # Execute command from docker cli if any.
